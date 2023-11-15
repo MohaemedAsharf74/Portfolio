@@ -9,6 +9,7 @@ import yummy from '../../Images/Projects/yummy.png'
 import templet1 from '../../Images/Projects/templet1.png'
 import templet2 from '../../Images/Projects/templet2.png'
 import templet3 from '../../Images/Projects/templet3.png'
+import portfolio from '../../Images/Projects/portfolio.png'
 
 export default function Projects() {
     return <>
@@ -137,6 +138,24 @@ export default function Projects() {
                                 </div>
                                 <div className='col-lg-3'>
                                     <div className={style.proj}>
+                                        <img className=' w-100 ' src={portfolio} alt="" />
+                                        <div className='my-1'>
+                                            <h3>Portfolio</h3>
+                                            <p>The Portfolio is a comprehensive Portfolio solution using Reactjs lottie-react typewriter</p>
+                                        </div>
+                                        <div className='d-flex justify-content-between '>
+                                            <a className='text-primary' href="https://github.com/MohaemedAsharf74/Portfolio" target='blank'>
+                                                <i class="fa-brands fa-github text-white fs-4"></i>
+                                            </a>
+                                            <a className='text-primary' href="https://mohaemedasharf74.github.io/Portfolio/" target='blank'>
+                                                Demo
+                                                <i className="fa-solid fa-arrow-right ms-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-3'>
+                                    <div className={style.proj}>
                                         <img className=' w-100 ' src={yummy} alt="" />
                                         <div className='my-1'>
                                             <h3>Yummy</h3>
@@ -241,6 +260,24 @@ export default function Projects() {
                                                 <i class="fa-brands fa-github text-white fs-4"></i>
                                             </a>
                                             <a className='text-primary' href="https://mohaemedasharf74.github.io/Noxe-Movie/#/login" target='blank'>
+                                                Demo
+                                                <i className="fa-solid fa-arrow-right ms-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className='col-lg-3'>
+                                    <div className={style.proj}>
+                                        <img className=' w-100 ' src={portfolio} alt="" />
+                                        <div className='my-1'>
+                                            <h3>Portfolio</h3>
+                                            <p>The Portfolio is a comprehensive Portfolio solution using Reactjs lottie-react typewriter</p>
+                                        </div>
+                                        <div className='d-flex justify-content-between '>
+                                            <a className='text-primary' href="https://github.com/MohaemedAsharf74/Portfolio" target='blank'>
+                                                <i class="fa-brands fa-github text-white fs-4"></i>
+                                            </a>
+                                            <a className='text-primary' href="https://mohaemedasharf74.github.io/Portfolio/" target='blank'>
                                                 Demo
                                                 <i className="fa-solid fa-arrow-right ms-2"></i>
                                             </a>
