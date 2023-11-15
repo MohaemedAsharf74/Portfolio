@@ -1,0 +1,39 @@
+/* .skill div img {
+    
+} */
+.sk {
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+}
+
+.sk img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+
+.skill div {
+    padding: 1rem;
+}
+
+.skill {
+    margin: 0;
+    padding: 0;
+    color: var(--text-light);
+
+}
+
+.sk:hover img {
+    scale: .8;
+}
+
+ h2 {
+    overflow: hidden;
+    height: 0%;
+    transition: .4s;
+}
+
+.sk:hover h2 {
+    height: 100% ;
+}

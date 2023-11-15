@@ -1,0 +1,24 @@
+.myImg{
+    width: 30%;
+    
+}
+.socialIcos{
+    /* padding-left: 2rem; */
+    color: white;
+    display: flex;
+    gap: 1rem;
+}
+
+.socialIcos i{
+    color: var(--text-light);
+    font-size: 2rem;
+    transition: .3s;
+}
+.socialIcos i:hover{
+    color: blueviolet;
+    font-size: 2rem;
+    scale: 1.1;
+}
+h1 , p{
+    color: var(--text-light);
+}

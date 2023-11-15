@@ -1,0 +1,62 @@
+.contact {
+    margin: 0;
+    padding: 0;
+    color: var(--text-light);
+}
+
+.contact>h1 {
+    color: var(--text-light);
+}
+
+.contact>p {
+    color: var(--second-text);
+}
+
+.email input {
+    width: 80%;
+    background-color: var(--bg-nav);
+    color: var(--text-light);
+    border: 1px solid #948787;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: 0.4s;
+}
+
+.email textarea {
+    width: 80%;
+    background-color: var(--bg-nav);
+    color: var(--text-light);
+    border: 1px solid #948787;
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: 0.4s;
+}
+
+.email input::placeholder,
+.email textarea::placeholder {
+    color: var(--second-text);
+}
+
+.email input:hover,
+.email textarea:hover {
+    border: 1px solid var(--text-light);
+}
+.myBtn{
+    width: 100%;
+}
+@media (max-width:800px) {
+    .email input ,
+    .email textarea{
+        width: 100%;
+    }
+    .myBtn{
+        display: flex;
+        justify-content: center;
+    }
+}
+button:disabled{
+    opacity: .4;
+    cursor: not-allowed;
+}

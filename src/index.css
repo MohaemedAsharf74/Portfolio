@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  body {
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--main-body);
+  }
+
+  :root {
+    --bg-nav: #504d4df5;
+    --text-light: #fff;
+    --main-bg: #292727;
+    --main-body: #000000;
+    --second-text: #eeeeeeae;
+    --blue: rgb(93, 188, 252);
+    --border: rgba(63, 63, 70, 0.4);
+  }
+
+  .light {
+    --bg-nav: #dcd4d4e4;
+    --text-light: #000000e0;
+    --main-bg: #eee;
+    --main-body: #fff;
+    --second-text: #777;
+  }
+
+  .container {
+    background-color: var(--main-bg) !important;
+
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  .nav-pills .active {
+    color: var(--text-light) !important;
+    background-color: var(--main-bg) !important;
+    border: 1px solid #5DBCFC !important;
+  }
+
+  .text-primary i:hover,
+  .text-primary:hover {
+    color: rgba(226, 168, 43, 0.712) !important;
+  }
+
+  .top {
+    background-color: #5DBCFC;
+    position: fixed;
+    bottom: 20px;
+    right: -100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  .up {
+    right: 20px !important;
+  }
+
+  .up:hover {
+    background-color: #313353;
+  }

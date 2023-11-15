@@ -1,0 +1,112 @@
+li>a {
+    text-decoration: none;
+    color: var(--text-light);
+    opacity: .9;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .2s;
+}
+
+li>a:hover {
+    color: var(--blue);
+    opacity: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 0;
+    background-color: var(--bg-nav);
+    padding: .8rem 1.6rem;
+    border-radius: 55px;
+}
+
+.nav li {
+    list-style: none;
+    font-size: 100%;
+}
+
+.myModal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(20, 2, 37, 0.485);
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width:700px) {
+    .nav {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
+
+.menuNav {
+    background-color: var(--main-bg);
+    border-radius: 30px;
+}
+
+.menuNav li:first-child {
+    text-align: right;
+    border: 0;
+    padding: 0;
+}
+
+.menuNav li:last-child {
+    border: 0;
+    padding-bottom: 0;
+}
+
+.menuNav li {
+    padding: .5rem;
+    list-style: none;
+    border-bottom: 1px solid var(--border);
+}
+
+
+.closeBtn i {
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .2s;
+    color: var(--text-light);
+}
+
+.closeBtn i:hover {
+    color: red;
+    transform: rotate(180deg);
+}
+
+.moon,
+.menu {
+    background-color: var(--bg-nav);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 228, 50, 0.229);
+    color: var(--second-text);
+    transition: .3s;
+    width: 3rem;
+}
+
+.moon i,
+.menu i {
+    font-size: 1.5rem;
+}
+
+.moon:hover,
+.menu:hover {
+    background-color: var(--bg-nav);
+    border-radius: 50%;
+    border: 1px solid rgb(255, 228, 50);
+    color: var(--text-light);
+}
+
+.moon:active,
+.menu:active {
+    scale: .7;
+}
